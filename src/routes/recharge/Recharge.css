@@ -1,0 +1,59 @@
+.recharge-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 10px;
+  margin-top: 34px;
+}
+
+.left-content {
+  width: 50%;
+  padding: 47px;
+}
+.right-content {
+  display: flex;
+  width: 50%;
+  height: auto;
+  justify-content: flex-end;
+}
+
+img.lady-img {
+  width: 228px;
+}
+
+.title {
+  margin: 5px 0 10px 0;
+  font-size: 21px;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title-box svg {
+  font-size: 33px;
+  margin-right: 15px;
+}
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 15px;
+}
+.title-box p,
+.title-box h5 {
+  margin: 0;
+}
+
+.btn-submit {
+  padding: 10px 2.5rem;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(234, 155, 10);
+  border-radius: 5px;
+  color: #fff;
+}
