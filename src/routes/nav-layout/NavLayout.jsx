@@ -1,6 +1,8 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 
+import "../pages/custom.css";
+
 import "./navLayout.css";
 
 import NavBar from "../../components/navbar/NavBar";
@@ -15,7 +17,7 @@ const NavLayout = () => {
           <SideBar />
         </div>
         <div className="right">
-          {/* render child component */}
+          {/* outlet placeholder for child routes  being rendered in  */}
           <Outlet />
         </div>
       </div>

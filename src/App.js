@@ -1,16 +1,16 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./routes/home/Home";
-import Recharge from "./routes/recharge/Recharge";
-import PostPaid from "./routes/recharge/PostPaid";
 import NavLayout from "./routes/nav-layout/NavLayout";
-import CreditCard from "./routes/recharge/creditcard/CreditCard";
-import Dth from "./routes/recharge/Dth";
-import Electricity from "./routes/recharge/Electricity";
-import FastTag from "./routes/recharge/FastTag";
-import Cylinder from "./routes/recharge/Cylinder";
-import LandLine from "./routes/recharge/LandLine";
-import Gas from "./routes/recharge/Gas";
-import Water from "./routes/recharge/Water";
+import Recharge from "./routes/pages/recharge/Recharge";
+import CreditCard from "./routes/pages/creditcard/CreditCard";
+import Dth from "./routes/pages/dth/Dth";
+import Electricity from "./routes/pages/electricity/Electricity";
+import FastTag from "./routes/pages/fasttag/FastTag";
+import Cylinder from "./routes/pages/cylinder/Cylinder";
+import LandLine from "./routes/pages/landline/LandLine";
+import Gas from "./routes/pages/gas/Gas";
+import Water from "./routes/pages/water/Water";
+import Education from "./routes/pages/education/Education";
 
 const App = () => {
   return (
@@ -28,10 +28,10 @@ const App = () => {
         <Route path="dth" element={<Dth />} />
         <Route path="gas" element={<Gas />} />
         <Route path="landline" element={<LandLine />} />
-        <Route path="mobile-postpaid" element={<PostPaid />} />
         <Route path="mobile-recharge" element={<Recharge />} />
         <Route path="rentVie" element={<CreditCard />} />
         <Route path="water" element={<Water />} />
+        <Route path="education" element={<Education />} />
       </Route>
     </Routes>
   );

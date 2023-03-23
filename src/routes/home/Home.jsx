@@ -4,6 +4,7 @@ import {
   MdMobileScreenShare,
   MdOutlineAddHomeWork,
   MdGasMeter,
+  MdOutlinePolicy,
 } from "react-icons/md";
 import { RiLightbulbFlashLine } from "react-icons/ri";
 import { GiAerialSignal, GiGasStove, GiWaterTank } from "react-icons/gi";
@@ -16,15 +17,15 @@ import "./home.css";
 // payment options
 const nav_links = [
   {
-    Path: "/mobile-recharge",
+    Path: "mobile-recharge",
     display: "MobileRecharge",
     icon: <GoDeviceMobile />,
     offer: "Flat₹20CB",
   },
   {
-    Path: "mobile-postpaid",
-    display: "MobilePostPaid",
-    icon: <MdMobileScreenShare />,
+    Path: "education",
+    display: "Education Fee",
+    icon: <MdOutlinePolicy />,
     offer: "Flat₹20CB",
   },
   {

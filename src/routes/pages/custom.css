@@ -32,6 +32,7 @@ img.lady-img {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 15px;
 }
 .title-box svg {
   font-size: 33px;
@@ -39,7 +40,7 @@ img.lady-img {
 }
 .form-group input {
   width: 100%;
-  padding: 10px;
+  padding: 10px 6px;
   border-radius: 10px;
   border: 1px solid gray;
   font-size: 15px;
@@ -56,4 +57,32 @@ img.lady-img {
   background-color: rgb(234, 155, 10);
   border-radius: 5px;
   color: #fff;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 15px;
+}
+
+.select option {
+  padding: 20px 0;
+}
+
+.option {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+}
+
+ul {
+  list-style: circle;
 }
