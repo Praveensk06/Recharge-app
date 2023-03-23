@@ -13,7 +13,6 @@ import { TbDeviceLandlinePhone } from "react-icons/tb";
 import { Link } from "react-router-dom";
 import "./home.css";
 
-
 // payment options
 const nav_links = [
   {
@@ -29,6 +28,24 @@ const nav_links = [
     offer: "Flat₹20CB",
   },
   {
+    Path: "dth",
+    display: "DTH",
+    icon: <GiAerialSignal />,
+    offer: "Flat₹20CB",
+  },
+  {
+    Path: "water",
+    display: "Water",
+    icon: <GiWaterTank />,
+    offer: "Flat₹20CB",
+  },
+  {
+    Path: "cylinder",
+    display: "Book A CYLINDER",
+    icon: <GiGasStove />,
+    offer: "Flat₹20CB",
+  },
+  {
     Path: "rentVie",
     display: "Rent Via Credit Card ",
     icon: <MdOutlineAddHomeWork />,
@@ -40,24 +57,14 @@ const nav_links = [
     icon: <RiLightbulbFlashLine />,
     offer: "Flat₹20CB",
   },
-  {
-    Path: "dth",
-    display: "DTH",
-    icon: <GiAerialSignal />,
-    offer: "Flat₹20CB",
-  },
+
   {
     Path: "fastTag",
     display: "FastTagRecharge",
     icon: <AiOutlineCar />,
     offer: "Flat₹20CB",
   },
-  {
-    Path: "cylinder",
-    display: "Book A CYLINDER",
-    icon: <GiGasStove />,
-    offer: "Flat₹20CB",
-  },
+
   {
     Path: "landline",
     display: "LandLine",
@@ -68,12 +75,6 @@ const nav_links = [
     Path: "gas",
     display: "Gas",
     icon: <MdGasMeter />,
-    offer: "Flat₹20CB",
-  },
-  {
-    Path: "water",
-    display: "Water",
-    icon: <GiWaterTank />,
     offer: "Flat₹20CB",
   },
 ];

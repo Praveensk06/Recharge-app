@@ -6,20 +6,21 @@ import { MdLocalOffer } from "react-icons/md";
 import { HiOutlineSupport } from "react-icons/hi";
 
 import { NavLink } from "react-router-dom";
+import { Nav } from "reactstrap";
 
 const SideBar = () => {
   return (
     <div className="side-bar">
       <div className="side-bar-menus">
         <div className="icons">
-          <div className="icon icon-active ">
+          <NavLink to="/" className="icon icon-active ">
             <p>
               <AiFillHome className=" active-a  home-icon  " />
             </p>
-            <NavLink className="active-a" to="/">
+            <p className="active-a" to="/">
               Home
-            </NavLink>
-          </div>
+            </p>
+          </NavLink>
 
           <div className="icon ">
             <p>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Recharge.css"
+import "./Recharge.css";
 
 import { MdMobileFriendly } from "react-icons/md";
 
@@ -18,7 +18,7 @@ const Recharge = () => {
           {/* input container */}
           <form>
             <div className="form-group">
-              <input  type="number" placeholder="Enter Your Mobile Number" />
+              <input type="number" placeholder="Enter Your Mobile Number" />
               <p>Please Enter Valid Mobile Number</p>
             </div>
             <div className="form-group">
@@ -29,7 +29,9 @@ const Recharge = () => {
               <input type="text" />
               <p>Please Valid Circle</p>
             </div>
-            <button className="btn-submit">Next</button>
+            <button type="button" className="btn-submit">
+              Next
+            </button>
           </form>
         </div>
         {/* right container */}

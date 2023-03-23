@@ -19,7 +19,9 @@ const LandLine = () => {
               <p>Please Enter Valid cylinder Number</p>
             </div>
 
-            <button className="btn-submit">Next</button>
+            <button type="button" className="btn-submit">
+              Next
+            </button>
           </form>
         </div>
         {/* RIGHT CONTAINER */}

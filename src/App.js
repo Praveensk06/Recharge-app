@@ -3,7 +3,7 @@ import Home from "./routes/home/Home";
 import Recharge from "./routes/recharge/Recharge";
 import PostPaid from "./routes/recharge/PostPaid";
 import NavLayout from "./routes/nav-layout/NavLayout";
-import CreditCard from "./routes/recharge/CreditCard";
+import CreditCard from "./routes/recharge/creditcard/CreditCard";
 import Dth from "./routes/recharge/Dth";
 import Electricity from "./routes/recharge/Electricity";
 import FastTag from "./routes/recharge/FastTag";
