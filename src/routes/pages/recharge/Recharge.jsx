@@ -1,9 +1,9 @@
 import React from "react";
 import "./recharge.css";
-
 import { MdMobileFriendly } from "react-icons/md";
-
+import IMG from "../../../assets/recharge-img.png";
 const Recharge = () => {
+
   return (
     <>
       <section>
@@ -12,14 +12,14 @@ const Recharge = () => {
             <div className="title-box">
               <MdMobileFriendly className="mobile-icon" />
               <div className="title">
-                <p>Let's Get Your</p>
-                <h5>Mobile Recharge Done!</h5>
+                <p>"Top up your phone, top up your life</p>
+                <h5>"Recharge on go with our app!"</h5>
               </div>
             </div>
             {/* input container */}
             <form>
               <div className="form-group">
-                <input type="number" placeholder="Enter Your Mobile Number" />
+                <input type="number" placeholder="Enter Your Mobile Number"/>
                 <p>Please Enter Valid Mobile Number</p>
               </div>
               <div className="form-group">
@@ -55,11 +55,7 @@ const Recharge = () => {
           </div>
           {/* right container */}
           <div className="right-content">
-            <img
-              src="https://pwa-cdn.freecharge.in/pwa-static/pwa/images/dcc/mobile.svg"
-              alt=""
-              className="lady-img"
-            />
+            <img src={IMG} alt="" className="lady-img" />
           </div>
         </div>
       </section>
@@ -67,21 +63,18 @@ const Recharge = () => {
       <section className="description">
         <h1>
           Easy And Convenient Mobile Recharge For All Operators In India On
-          Freecharge
+          Quick Charge
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
-          labore magnam ab recusandae laborum accusamus iusto culpa qui,
-          voluptates explicabo quisquam ratione debitis sequi doloremque
-          laudantium mollitia beatae ad vitae, voluptas aperiam cum veniam enim.
-          Tempore natus eius aspernatur perferendis esse possimus voluptates
-          totam, quis sunt omnis labore vel, harum consectetur aliquid illo
-          doloribus? Doloremque, eius. Quam, beatae rerum magnam consequuntur
-          doloremque architecto, consectetur voluptatem quasi obcaecati
-          accusamus quaerat aspernatur qui blanditiis fugiat repellat hic iste
-          adipisci dolorem sed. Dolore iure repudiandae odit voluptatem velit
-          voluptatibus tempora itaque consectetur facere ad obcaecati hic, dolor
-          illo at reiciendis aut? Dolorem, error.
+          FreeCharge is an online platform that provides a quick and convenient
+          solution for mobile recharge. With FreeCharge, you can recharge your
+          mobile phone from anywhere, at any time, with just a few clicks. The
+          platform offers a user-friendly interface, and the process of recharge
+          is fast and secure. Freecharge offers a mobile recharge option through
+          which you can make a postpaid, prepaid mobile recharge, utility bill
+          payments, cable tv, education fees etc. It is an instant and easy
+          recharging process, a secure and safe payment option, and offers a
+          hassle-free online experience.
         </p>
         <h1>Some Of The Common Types Of Mobile Recharge Plans Include:</h1>
         <ol type="1">
@@ -90,28 +83,38 @@ const Recharge = () => {
             minutes, without any data benefits.
           </li>
           <li>
-            Talktime Plans: Offer a fixed amount of talk time or calling
-            minutes, without any data benefits.
+            Data Plans: Offer a fixed amount of data, without any talk time
+            benefits.
           </li>
           <li>
-            Talktime Plans: Offer a fixed amount of talk time or calling
-            minutes, without any data benefits.
+            Combo Plans: Offer a combination of talk time and data benefits.
           </li>
           <li>
-            Talktime Plans: Offer a fixed amount of talk time or calling
-            minutes, without any data benefits.
+            Special Recharge Plans: Offer special benefits, such as discounts on
+            international calls, unlimited roaming, or free SMS.
           </li>
           <li>
-            Talktime Plans: Offer a fixed amount of talk time or calling
-            minutes, without any data benefits.
+            Postpaid Plans: Allow customers to recharge after using their
+            services, with monthly billing and payment.
           </li>
           <li>
-            Talktime Plans: Offer a fixed amount of talk time or calling
-            minutes, without any data benefits.
+            Prepaid Plans: Allow customers to recharge their phones in advance,
+            with a fixed amount of talk time and data.
           </li>
         </ol>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa reprehenderit neque aut perferendis consectetur doloribus! Ea, aliquid cupiditate ipsum veritatis id exercitationem quidem molestiae repudiandae quia qui doloremque maiores culpa, debitis obcaecati. Voluptas exercitationem quae, cum similique maiores voluptatem dolor suscipit, aspernatur velit doloremque doloribus accusantium placeat quibusdam quas, libero ex qui eveniet? Quis dignissimos asperiores aperiam reiciendis facilis voluptatem ipsum iste earum exercitationem sequi fugiat cumque, velit ratione atque provident, in architecto ut, et explicabo eius nesciunt cum quos mollitia officia? Reprehenderit vitae ab sapiente consequuntur amet quae pariatur sunt saepe temporibus? Dicta voluptatibus minima totam reiciendis perferendis assumenda!
+          Browse through the Recommended Plans, Data Plans(2G,3G,4G), Full
+          Talktime Plans data plans, Roaming Plans, Special Plans, and many more
+          and grab the best offers on all recharges. Not only can you get the
+          best recharge offers and plans for all the major operators on
+          Freecharge, you also get exclusive offers. These offers are applicable
+          on Jio Prepaid recharge offers and plans, Airtel Prepaid plans and
+          offers, BSNL recharge plans and offers, VI plans and offers, etc. With
+          every mobile recharge through Freecharge, you earn assured cashback up
+          to 100% without any promo code. Additionally, Freecharge releases
+          daily and occasional promo codes from time to time to give you
+          additional exclusive benefits on your prepaid mobile recharges. You
+          can also take the advantage of exclusive bank offers when available.
         </p>
       </section>
     </>

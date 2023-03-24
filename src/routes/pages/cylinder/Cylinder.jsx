@@ -1,7 +1,20 @@
-import React from "react";
+import React,{useState} from "react";
 import "./cylinder.css";
 
 const Cylinder = () => {
+
+  const [input, setInput] = useState("");
+
+  const handleInput = (e) => {
+    const newValue = e.target.value;
+
+    if (/\d/.test(newValue)) {
+      alert("please enter Alphabet only!");
+      setInput(newValue.replace(/\d/g, ""));
+    } else {
+      setInput(newValue);
+    }
+  };
   return (
     <>
       <section>
@@ -9,15 +22,19 @@ const Cylinder = () => {
           <div className="left-content">
             <div className="title-box">
               <div className="title">
-                <p>Let's Get Your</p>
-                <h5>DTH Bill done!</h5>
+                <p>Pay your cylinder bills anytime</p>
               </div>
             </div>
             {/* input container */}
             <form>
               <div className="form-group">
-                <input type="number" placeholder="Enter Your Dish Number" />
-                <p>Please Enter Valid DTH Id</p>
+                <input
+                  type="text"
+                  placeholder="Enter Your Provider"
+                  value={input}
+                  onChange={handleInput}
+                />
+                <p>Please Enter a Provider</p>
               </div>
               <button type="button" className="btn-submit">
                 Next
@@ -40,56 +57,58 @@ const Cylinder = () => {
           <ul className="provider-list">
             <li className="provider-item">
               <img
-                src="https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/INDI00000NAT26.webp"
+                src="https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/Bharat_Gas_(BPCL).webp"
                 alt=""
               />
-              <h3 className="provider-name">Indian Gas</h3>
+              <h3 className="provider-name">Bharat Gas</h3>
             </li>
             <li className="provider-item">
               <img
-                src="https://pwa-cdn.freecharge.in/pwa-static/pwa/images/home/pipe_gas.png"
+                src="https://dmx246cm6p7k8.cloudfront.net/content//images/circular-operator-logos/bills/HPCL_LPG_GAS.webp"
                 alt=""
               />
-              <h3 className="provider-name">HPCL PNG</h3>
+              <h3 className="provider-name">HP Gas</h3>
             </li>
             <li className="provider-item">
               <img
-                src="https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/INDRAPGASDEL02.webp"
+                src="https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/Indane_Gas_(Indian_Oil).webp"
                 alt=""
               />
-              <h3 className="provider-name">Adani Gas</h3>
+              <h3 className="provider-name">Indane Gas</h3>
             </li>
           </ul>
         </div>
       </section>
       {/* description */}
       <section className="description">
-        <h1>Online DTH Recharge For All DTH Operators With Freecharge</h1>
+        <h1>Online Cylinder Bill With Quickcharge</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
-          labore magnam ab recusandae laborum accusamus iusto culpa qui,
-          voluptates explicabo quisquam ratione debitis sequi doloremque
-          laudantium mollitia beatae ad vitae, voluptas aperiam cum veniam enim.
-          Tempore natus eius aspernatur perferendis esse possimus voluptates
-          totam, quis sunt omnis labore vel, harum consectetur aliquid illo
-          doloribus? Doloremque, eius. Quam, beatae rerum magnam consequuntur
-          doloremque architecto, consectetur voluptatem quasi obcaecati
-          accusamus quaerat aspernatur qui blanditiis fugiat repellat hic iste
-          adipisci dolorem sed. Dolore iure repudiandae odit voluptatem velit
-          voluptatibus tempora itaque consectetur facere ad obcaecati hic, dolor
-          illo at reiciendis aut? Dolorem, error.
+          Imagine you are just preparing to cook your favourite veggies soup and
+          turn on the flame just to find out that you are left with an empty
+          cylinder. Well, with Freecharge, you do not need to worry about
+          cylinder gas booking. No need to step out of your home. Simply make
+          your LPG gas cylinder booking from the comfort of you r home in just a
+          few minutes.
         </p>
-        <h2>How To Book LPG Gas Online On Freecharge?</h2>
-        <p>
-          To book LPG gas cylinder online, you can use the Freecharge app and
-          follow the steps mentioned below. 1. Tap Book a Cylinder in the New
-          Payments section in Freecharge App (Android only) 2. Select your gas
-          provider. 3. Enter your registered mobile number. 4. Now, the amount
-          to be paid will be fetched. 5. Select the payment mode and tap Make
-          Payment. Upon successful payment, you will receive a BBPS reference
-          no. on your screen. You can use this BBPS reference no. to track your
-          booking or contact your agency for resolving delivery related queries.
-        </p>
+        <h2>How To Book LPG Gas Online On Quickcharge?</h2>
+        <ol type="1">
+          <li>
+            You can make a payment for a cylinder booking using UPI, Debit card,
+            Credit card or Freecharge Wallet.
+          </li>
+          <li>
+            Once you make a gas cylinder booking, it cannot be canceled. For any
+            further assistance contact your distributor/ agency or gas provider.
+          </li>
+          <li>
+            If you are eligible for the government subsidy on gas cylinder, it
+            will be credited to your bank account by your gas provider within 2
+            working days. The amount you pay at the time of booking the cylinder
+            does not include this subsidy. In case you have not received this
+            subsidy, contact your distributor/ agency or gas provider for
+            assistance.
+          </li>
+        </ol>
       </section>
     </>
   );

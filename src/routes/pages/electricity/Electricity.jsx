@@ -9,8 +9,8 @@ const Electricity = () => {
           <div className="left-content">
             <div className="title-box">
               <div className="title">
-                <p>Let's Get Your</p>
-                <h5>Electricity Bill Payment Done!</h5>
+                <p>Fast and Secure Electricity Bill Payment </p>
+              
               </div>
             </div>
             {/* input container */}
@@ -40,24 +40,10 @@ const Electricity = () => {
           <ul className="provider-list">
             <li className="provider-item">
               <img
-                src="https://offers.freecharge.in/inappicons/electricity.png"
+                src="https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/TNEB00000TND01.webp"
                 alt=""
               />
-              <h3 className="provider-name">Central Power Distribution</h3>
-            </li>
-            <li className="provider-item">
-              <img
-                src="https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/DELH00000DEL6Q.webp"
-                alt=""
-              />
-              <h3 className="provider-name">Delhi Development Authority</h3>
-            </li>
-            <li className="provider-item">
-              <img
-                src="https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/SPDCLOB00ANP01.webp"
-                alt=""
-              />
-              <h3 className="provider-name">Assam Power</h3>
+              <h3 className="provider-name">Tamilnadu Electricty Board</h3>
             </li>
             <li className="provider-item">
               <img
@@ -66,65 +52,79 @@ const Electricity = () => {
               />
               <h3 className="provider-name">Thirissur Corporation-</h3>
             </li>
+            <li className="provider-item">
+              <img
+                src="https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/DELH00000DEL6Q.webp"
+                alt=""
+              />
+              <h3 className="provider-name">Delhi Development Authority</h3>
+            </li>
           </ul>
         </div>
       </section>
       {/* description */}
       <section className="description">
-        <h1>Electricity Main Category - Freecharge</h1>
+        <h1>Electricity Main Category - QuickCharge</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
-          labore magnam ab recusandae laborum accusamus iusto culpa qui,
-          voluptates explicabo quisquam ratione debitis sequi doloremque
-          laudantium mollitia beatae ad vitae, voluptas aperiam cum veniam enim.
-          Tempore natus eius aspernatur perferendis esse possimus voluptates
-          totam, quis sunt omnis labore vel, harum consectetur aliquid illo
-          doloribus? Doloremque, eius. Quam, beatae rerum magnam consequuntur
-          doloremque architecto, consectetur voluptatem quasi obcaecati
-          accusamus quaerat aspernatur qui blanditiis fugiat repellat hic iste
-          adipisci dolorem sed. Dolore iure repudiandae odit voluptatem velit
-          voluptatibus tempora itaque consectetur facere ad obcaecati hic, dolor
-          illo at reiciendis aut? Dolorem, error.
+          Initially, only sizable towns and cities had significant
+          electrification. The supply to dense urban areas was the main focus.
+          The many providers did not work together or coordinated little.
+          Private plants predominated in the power industry. In Delhi, India,
+          the first diesel power station was built in 1905. This was a personal
+          facility established by a man from England by the name of M/s John
+          Fleming. In accordance with the Indian Electricity Act of 1903's
+          stipulations, he received a licence. After receiving a licence, this
+          specific company installed a tiny 2 MW diesel set near Lahori Gate in
+          Old Delhi. The same business then changed its name to the Delhi
+          Electric Supply and Traction Company.
         </p>
         <h2>
-          Step-By-Step Guide To Pay Electricity Bill Payment With Freecharge?
+          Step-By-Step Guide To Pay Electricity Bill Payment With QuickCharge?
         </h2>
         <ul type="">
           <li>
-            Launch the Freecharge app first, then look in the Recharge & Bill
+            Launch the QuickCharge app first, then look in the Recharge & Bill
             Payment section for "Electricity." To go to the following stage, tap
             Electricity.
           </li>
           <li>
-            Launch the Freecharge app first, then look in the Recharge & Bill
-            Payment section for "Electricity." To go to the following stage, tap
-            Electricity.
+            The next step is to locate your electricity provider so you may use
+            QuickCharge to pay electricity bill online.
           </li>
           <li>
-            Launch the Freecharge app first, then look in the Recharge & Bill
-            Payment section for "Electricity." To go to the following stage, tap
-            Electricity.
+            You must now input your Consumer Number (CA) in order to view the
+            amount of your bill after choosing your electrical service provider.
           </li>
           <li>
-            Launch the Freecharge app first, then look in the Recharge & Bill
-            Payment section for "Electricity." To go to the following stage, tap
-            Electricity.
+            You can verify your information, including the amount of your power
+            bill that needs to be paid and its due date, after entering your CA
+            Number.
           </li>
         </ul>
-        <h3>STRATEGIC SUPPORT</h3>
+        <h3 style={{ fontSize: "1rem" }}>
+          How To Check Electricity Bill Online?
+        </h3>
+        <ul>
+          <li>Check out the electrical board's webpage.</li>
+          <li>Use your credentials to log in.</li>
+          <li>Find the "View Bill" option and select it.</li>
+          <li>
+            Include other information, such as your customer identification
+            number.
+          </li>
+        </ul>
+
+        <h3 style={{ fontSize: "1rem" }}>
+          What Are The Benefits Of Paying Electricity Bill From Freecharge App?
+        </h3>
         <p>
-          STRATEGIC SUPPORT The electricity sector's 100% FDI permit has
-          increased FDI influx. It is anticipated that programmes like the
-          Integrated Power Development Scheme (IPDS) and Deen Dayal Upadhyay
-          Gram Jyoti Yojana (DDUGJY) will increase electricity throughout the
-          nation.
-        </p>
-        <h3>A LARGER INVESTMENT</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quod
-          praesentium dolorem aut, exercitationem, iste accusantium mollitia sit
-          quaerat, earum et iure in doloremque voluptatum necessitatibus fugit
-          voluptas corporis nihil?
+          You have the choice to save the specifics of your transaction. This
+          means that each time you pay electricity bill online, you will not
+          need to input your information again. The most recent 128-bit
+          encryption technology ensures complete security for Freecharge. Your
+          credit card information and other data are fully secure. Additionally,
+          you have the option of paying later to complete electricity bill
+          payment online transactions at a later time.
         </p>
       </section>
     </>

@@ -5,6 +5,7 @@ import {
   MdOutlineAddHomeWork,
   MdGasMeter,
   MdOutlinePolicy,
+  MdSlowMotionVideo,
 } from "react-icons/md";
 import { RiLightbulbFlashLine } from "react-icons/ri";
 import { GiAerialSignal, GiGasStove, GiWaterTank } from "react-icons/gi";
@@ -26,7 +27,6 @@ const nav_links = [
     Path: "education",
     display: "Education Fee",
     icon: <MdOutlinePolicy />,
-    offer: "Flat₹20CB",
   },
   {
     Path: "dth",
@@ -38,7 +38,6 @@ const nav_links = [
     Path: "water",
     display: "Water",
     icon: <GiWaterTank />,
-    offer: "Flat₹20CB",
   },
   {
     Path: "cylinder",
@@ -50,13 +49,11 @@ const nav_links = [
     Path: "rentVie",
     display: "Rent Via Credit Card ",
     icon: <MdOutlineAddHomeWork />,
-    offer: "Flat₹20CB",
   },
   {
     Path: "electricity",
     display: "Electricity",
     icon: <RiLightbulbFlashLine />,
-    offer: "Flat₹20CB",
   },
 
   {
@@ -70,12 +67,11 @@ const nav_links = [
     Path: "landline",
     display: "LandLine",
     icon: <TbDeviceLandlinePhone />,
-    offer: "Flat₹20CB",
   },
   {
-    Path: "gas",
-    display: "Gas",
-    icon: <MdGasMeter />,
+    Path: "ott",
+    display: "OTT",
+    icon: <MdSlowMotionVideo />,
     offer: "Flat₹20CB",
   },
 ];
@@ -83,7 +79,7 @@ const nav_links = [
 const Home = () => {
   return (
     <div>
-      <h2>Payments</h2>
+      <h2 className="payment-txt">Payments</h2>
       <ul className="nav-list">
         {nav_links.map((item, Index) => {
           return (
@@ -92,7 +88,9 @@ const Home = () => {
                 <p className="nav-icon">{item.icon}</p>
               </Link>
               <p className="icon-title">{item.display}</p>
-              <p className="icon-title">{item.offer}</p>
+              <p className="icon-title" style={{ color: "#1E8AD3" }}>
+                {item.offer}
+              </p>
             </li>
           );
         })}

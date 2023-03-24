@@ -8,7 +8,7 @@ import Electricity from "./routes/pages/electricity/Electricity";
 import FastTag from "./routes/pages/fasttag/FastTag";
 import Cylinder from "./routes/pages/cylinder/Cylinder";
 import LandLine from "./routes/pages/landline/LandLine";
-import Gas from "./routes/pages/gas/Gas";
+import Ott from "./routes/pages/gas/Ott";
 import Water from "./routes/pages/water/Water";
 import Education from "./routes/pages/education/Education";
 
@@ -26,7 +26,7 @@ const App = () => {
         <Route path="electricity" element={<Electricity />} />
         <Route path="fastTag" element={<FastTag />} />
         <Route path="dth" element={<Dth />} />
-        <Route path="gas" element={<Gas />} />
+        <Route path="ott" element={<Ott />} />
         <Route path="landline" element={<LandLine />} />
         <Route path="mobile-recharge" element={<Recharge />} />
         <Route path="rentVie" element={<CreditCard />} />

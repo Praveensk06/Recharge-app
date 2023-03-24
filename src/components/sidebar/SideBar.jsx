@@ -6,7 +6,6 @@ import { MdLocalOffer } from "react-icons/md";
 import { HiOutlineSupport } from "react-icons/hi";
 
 import { NavLink } from "react-router-dom";
-import { Nav } from "reactstrap";
 
 const SideBar = () => {
   return (
@@ -32,13 +31,6 @@ const SideBar = () => {
             <p>
               <MdLocalOffer className="home-icon" />
             </p>
-            <NavLink to="">Offer</NavLink>
-          </div>
-          <div className="icon">
-            <p>
-              <HiOutlineSupport className="home-icon" />
-            </p>
-
             <NavLink to="">Offer</NavLink>
           </div>
         </div>

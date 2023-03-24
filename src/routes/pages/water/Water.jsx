@@ -1,7 +1,22 @@
-import React from "react";
+import React,{useState} from "react";
 import "./water.css";
 
 const Water = () => {
+
+
+
+   const [input, setInput] = useState("");
+
+   const handleInput = (e) => {
+     const newValue = e.target.value;
+
+     if (/\d/.test(newValue)) {
+       alert("please enter Alphabet only!");
+       setInput(newValue.replace(/\d/g, ""));
+     } else {
+       setInput(newValue);
+     }
+   };
   return (
     <>
       <section>
@@ -16,7 +31,12 @@ const Water = () => {
             {/* input container */}
             <form>
               <div className="form-group">
-                <input type="text" placeholder="Enter Your Provider" />
+                <input
+                  type="text"
+                  placeholder="Enter Your Provider"
+                  value={input}
+                  onChange={handleInput}
+                />
                 <p>Please Enter Provider</p>
               </div>
               <button type="button" className="btn-submit">
@@ -27,7 +47,7 @@ const Water = () => {
           {/* RIGHT CONTAINER */}
           <div className="right-content">
             <img
-              src="https://pwa-cdn.freecharge.in/pwa-static/pwa/images/operators/water.png"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoJeTSQQKAAFlITgiag6yzEEYjqlS-E69tBA&usqp=CAU"
               alt=""
               className="lady-img"
             />
@@ -40,58 +60,47 @@ const Water = () => {
           <ul className="provider-list">
             <li className="provider-item">
               <img
-                src="https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/DELH00000DEL6Q.webp"
+                src="https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/CHEN00000TNDAC.webp"
                 alt=""
               />
-              <h3 className="provider-name">Delhi Jal Board</h3>
+              <h3 className="provider-name">
+                Chennai Metropolitan Water Supply
+              </h3>
             </li>
             <li className="provider-item">
               <img
-                src="https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/DELH00000DEL6Q.webp"
+                src="                https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/KERA00000KERMO.webp
+"
                 alt=""
               />
-              <h3 className="provider-name">Delhi Development Authority</h3>
-            </li>
-            <li className="provider-item">
-              <img
-                src="https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/JEJU00000PUNRU.webp"
-                alt=""
-              />
-              <h3 className="provider-name">Chennai Corporation</h3>
-            </li>
-            <li className="provider-item">
-              <img
-                src="https://pwa-cdn.freecharge.in/pwa-static/pwa/images/home/water.png"
-                alt=""
-              />
-              <h3 className="provider-name">Municipal Corporation-Karnataka</h3>
-            </li>
-            <li className="provider-item">
-              <img
-                src="https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/tata-play.webp"
-                alt=""
-              />
-              <h3 className="provider-name">Tata Play</h3>
+              <h3 className="provider-name">Kerala water Authority</h3>
             </li>
           </ul>
         </div>
       </section>
       {/* description */}
       <section className="description">
-        <h1>Online DTH Recharge For All DTH Operators With Freecharge</h1>
+        <h1>Instant Water Bill Payment</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
-          labore magnam ab recusandae laborum accusamus iusto culpa qui,
-          voluptates explicabo quisquam ratione debitis sequi doloremque
-          laudantium mollitia beatae ad vitae, voluptas aperiam cum veniam enim.
-          Tempore natus eius aspernatur perferendis esse possimus voluptates
-          totam, quis sunt omnis labore vel, harum consectetur aliquid illo
-          doloribus? Doloremque, eius. Quam, beatae rerum magnam consequuntur
-          doloremque architecto, consectetur voluptatem quasi obcaecati
-          accusamus quaerat aspernatur qui blanditiis fugiat repellat hic iste
-          adipisci dolorem sed. Dolore iure repudiandae odit voluptatem velit
-          voluptatibus tempora itaque consectetur facere ad obcaecati hic, dolor
-          illo at reiciendis aut? Dolorem, error.
+          Your water bill payment is just a click away with Freecharge. Trusted
+          by over 27 million users, Freecharge is your one-stop shop for online
+          recharge! Online water bill payment is a useful method, especially
+          when one is running short of time. You do not need to stress over
+          paper bills and cheques. Online water bill payment can give you the
+          complete flexibility of paying anytime, anywhere; all you need is
+          internet access. In the event that you are running late and need
+          assistance in paying the water bill, online portals like Quickcharge
+          give quick relief. Utilise the assistance that Quickcharge offers, as
+          we provide a flexible solution that enables you to securely transfer
+          your money using credit card, debit card, or net banking.
+        </p>
+        <h1>Quickcharge For Online Water Bill Payment</h1>
+        <p>
+          Above all, you can save a lot of time and avoid paying late charges.
+          It is also more secure than paying through the mail. Moreover, you can
+          deal with your funds more effectively by paying water bills via
+          Freecharge using your debit or credit card. Besides, you can also
+          avail various rewards for online recharge.
         </p>
       </section>
     </>

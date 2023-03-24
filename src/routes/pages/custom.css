@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=PT+Sans:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
 .recharge-container {
   width: 100%;
   display: flex;
@@ -20,7 +26,7 @@
 }
 
 img.lady-img {
-  width: 228px;
+  width: 260px;
 }
 
 .title {
@@ -54,9 +60,9 @@ img.lady-img {
   padding: 10px 2.5rem;
   border: none;
   cursor: pointer;
-  background-color: rgb(234, 155, 10);
+  background-color: rgb(22, 5, 130);
   border-radius: 5px;
-  color: #fff;
+  color: #ffffff;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
@@ -85,4 +91,19 @@ input[type="number"]::-webkit-inner-spin-button {
 
 ul {
   list-style: circle;
+}
+
+.description h1,
+h2 {
+  color: #0f0f10;
+  font-size: 1rem;
+}
+.description p {
+  color: rgb(101, 100, 100);
+  text-align: justify;
+}
+
+ol li {
+  color: rgb(101, 100, 100);
+  font-size: 16px;
 }

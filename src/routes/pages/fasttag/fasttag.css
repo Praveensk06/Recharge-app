@@ -13,10 +13,16 @@
 .description {
   padding: 0 20px;
 }
-.description h1 {
-  color: #ea9b0a;
+
+ul.provider-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 20px;
 }
-.description p {
-  color: grey;
-  text-align: justify;
+
+.provider-container li:hover {
+  transform: scale(0.85); /* Shrink button by 5% on hover */
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
 }
