@@ -83,23 +83,23 @@ const LandLine = () => {
       <section className="description">
         <h2>ONLINE LANDLINE BILL PAYMENTS MADE EASY</h2>
         <p style={{ color: "grey", fontSize: "13px" }}>
-          Your landline bill payment is just a click away with Freecharge.
-          Trusted by over 27 million users, Freecharge is your one-stop shop for
+          Your landline bill payment is just a click away with QuickCharge.
+          Trusted by over 27 million users, QuickCharge is your one-stop shop for
           online recharge! Paying bills every month can be a real problem at
           times, especially when you are running short of time or have urgent
           meetings. Sometimes you might even have to pay a late fee due to a
           missed deadline and now that you know, you are on the edge; you simply
           can't pay it as the bill payment office is closed. So what is the
           solution? Online bill payments come as a big relief! And landline bill
-          payment is definitely not an exception. Freecharge greatly reduces
+          payment is definitely not an exception. QuickCharge greatly reduces
           your troubles in such extreme situations. We offer landline bill
           payment for major service providers including Airtel landline, Tata
           landline, and MTNL landline.
         </p>
-        <h2>WHY PAY LANDLINE BILLS WITH FREECHARGE?</h2>
+        <h2>WHY PAY LANDLINE BILLS WITH QuickCharge?</h2>
         <p style={{ color: "grey", fontSize: "13px" }}>
           You can save a lot of precious time by paying your landline bill with
-          Freecharge. It is definitely more secure than paying through the mail;
+          QuickCharge. It is definitely more secure than paying through the mail;
           as your personal information is at risk of falling into wrong hands.
           You could be entertaining friends, sitting in the office, travelling
           on vacation, or simply relaxing at home; just pick up your laptop,
@@ -107,7 +107,7 @@ const LandLine = () => {
           in a jiffy! You get an option to save your card and other personal
           details. This means you do not have to re-enter them every time you
           pay your landline bill. Most people go for this option because they
-          trust Freecharge. In addition, you may get selected for special
+          trust QuickCharge. In addition, you may get selected for special
           rewards.
         </p>
       </section>

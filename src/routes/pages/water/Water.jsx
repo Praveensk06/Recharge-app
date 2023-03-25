@@ -73,7 +73,7 @@ const Water = () => {
 "
                 alt=""
               />
-              <h3 className="provider-name">Kerala water Authority</h3>
+              <h3 className="provider-name">Coimbatore water Authority</h3>
             </li>
           </ul>
         </div>

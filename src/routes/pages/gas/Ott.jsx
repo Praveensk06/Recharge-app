@@ -146,10 +146,10 @@ const Ott = () => {
           Any electronic device that can load browsers and OTT applications can
           load these shows through the internet.
         </p>
-        <h1 style={{ color: "black" }}>Renew OTT Subscription On Freecharge</h1>
+        <h1 style={{ color: "black" }}>Renew OTT Subscription On QuickCharge</h1>
         <p>
-          For ott subscription renewal through Freecharge, a customer needs to
-          enter the Freecharge app by signing up there. After that, tap through
+          For ott subscription renewal through QuickCharge, a customer needs to
+          enter the QuickCharge app by signing up there. After that, tap through
           the payment gateway for making payments for the ott subscription. One
           may also get these options on any browser. Then, tap on the OTT
           platforms you wish to get subscribed with for the OTT renewal. While

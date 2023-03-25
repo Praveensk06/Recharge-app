@@ -66,11 +66,11 @@ const Recharge = () => {
           Quick Charge
         </h1>
         <p>
-          FreeCharge is an online platform that provides a quick and convenient
+          QuickCharge is an online platform that provides a quick and convenient
           solution for mobile recharge. With FreeCharge, you can recharge your
           mobile phone from anywhere, at any time, with just a few clicks. The
           platform offers a user-friendly interface, and the process of recharge
-          is fast and secure. Freecharge offers a mobile recharge option through
+          is fast and secure. Quickcharge offers a mobile recharge option through
           which you can make a postpaid, prepaid mobile recharge, utility bill
           payments, cable tv, education fees etc. It is an instant and easy
           recharging process, a secure and safe payment option, and offers a
@@ -107,11 +107,11 @@ const Recharge = () => {
           Talktime Plans data plans, Roaming Plans, Special Plans, and many more
           and grab the best offers on all recharges. Not only can you get the
           best recharge offers and plans for all the major operators on
-          Freecharge, you also get exclusive offers. These offers are applicable
+          Quickcharge, you also get exclusive offers. These offers are applicable
           on Jio Prepaid recharge offers and plans, Airtel Prepaid plans and
           offers, BSNL recharge plans and offers, VI plans and offers, etc. With
-          every mobile recharge through Freecharge, you earn assured cashback up
-          to 100% without any promo code. Additionally, Freecharge releases
+          every mobile recharge through QuickCharge, you earn assured cashback up
+          to 100% without any promo code. Additionally, QuickCharge releases
           daily and occasional promo codes from time to time to give you
           additional exclusive benefits on your prepaid mobile recharges. You
           can also take the advantage of exclusive bank offers when available.

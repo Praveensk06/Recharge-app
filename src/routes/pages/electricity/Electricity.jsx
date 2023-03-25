@@ -115,13 +115,13 @@ const Electricity = () => {
         </ul>
 
         <h3 style={{ fontSize: "1rem" }}>
-          What Are The Benefits Of Paying Electricity Bill From Freecharge App?
+          What Are The Benefits Of Paying Electricity Bill From Quickcharge App?
         </h3>
         <p>
           You have the choice to save the specifics of your transaction. This
           means that each time you pay electricity bill online, you will not
           need to input your information again. The most recent 128-bit
-          encryption technology ensures complete security for Freecharge. Your
+          encryption technology ensures complete security for Quickcharge. Your
           credit card information and other data are fully secure. Additionally,
           you have the option of paying later to complete electricity bill
           payment online transactions at a later time.

@@ -94,11 +94,11 @@ const Dth = () => {
         </p>
         <h2>For Desktop</h2>
         <ol type="1">
-          <li>Go to Freecharge homepage, Freecharge.in</li>
+          <li>Go to QuickCharge homepage, QuickCharge.in</li>
           <li>Navigate to DTH recharge service</li>
           <li>Select you DTH provider and add your subscription ID</li>
           <li>
-            Login into Freecharge with mobile number, if you are not logged in
+            Login into QuickCharge with mobile number, if you are not logged in
           </li>
           <li>Enter the 4-digit OTP</li>
           <li>Enter the amount for recharge</li>
