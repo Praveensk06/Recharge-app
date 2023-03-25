@@ -15,7 +15,7 @@ const Education = () => {
 
   const getCityOptions = () => {
     if (state === "TamilNadu") {
-      return ["Chennai", "Coimbatore", "Cuddalore", "Dharmapuri", "Salem"];
+      return ["Chennai", "Coimbatore", "Tiruchirappalli","Salem",'Madurai'];
     } else if (state === "Kerala") {
       return ["Thiruvananthapuram", "Kochi", "KozhiKode", "Thrissur"];
     } else if (state === "Karnataka") {
