@@ -50,14 +50,14 @@ const Electricity = () => {
                 src="https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/THRI00000KER0H.webp"
                 alt=""
               />
-              <h3 className="provider-name">Thirissur Corporation-</h3>
+              <h3 className="provider-name">Kerala Electricity Board</h3>
             </li>
             <li className="provider-item">
               <img
                 src="https://dmx246cm6p7k8.cloudfront.net/content/images/circular-operator-logos/bills/DELH00000DEL6Q.webp"
                 alt=""
               />
-              <h3 className="provider-name">Delhi Development Authority</h3>
+              <h3 className="provider-name">Karnataka Authority</h3>
             </li>
           </ul>
         </div>
